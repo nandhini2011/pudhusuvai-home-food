@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puthusuvai Home Foods</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <script src="https://cdn.jsdelivr.net/npm/motion@11.11.13/dist/motion.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body class="font-plex w-full ">
+    <header class="w-full h-16 shadow-lg z-10 bg-red-500 font-medium backdrop-blur-lg  sticky top-0">
+        <div class="container mx-auto px-2">
+            <div class="flex items-center justify-between w-full">    
+                <img src="images/logo.png" class="w-14 aspect-square object-contain cursor-pointer"/>
+                <!-- <h1 class="font-oswald">Puthusuvai Home Foods</h1> -->
+                <ol class="p-0 flex items-end jusitfy-end gap-4 text-[13px]">
+                    <li class="list-none cursor-pointer flex items-center justify-center relative group ">
+                        <i class="fa-solid fa-crown mx-1 text-yellow-400"></i>Subscription Plan <i class="fa-solid fa-sort-down mx-1"></i>
+                        <div class="absolute top-5 -left-[70px] border shadow-lg overflow-hidden rounded-md backdrop-blur-2xl bg-gray-200 w-[250px] hidden group-hover:block z-50 hover:block">
+                            <p class="p-4 hover:bg-gray-400">Classic Plan Veg/Non-veg</p>
+                            <p class="p-4 hover:bg-gray-400">Premium Plan Veg/Non-veg</p>
+                        </div>
+                    </li>
+                    <li class="list-none cursor-pointer"><i class="fa-solid fa-calendar-days mx-1"></i>Events</li>
+                    <li class="list-none cursor-pointer"><i class="fa-solid fa-phone mx-1"></i>Contact US</li>
+                    <li class="list-none cursor-pointer"><i class="fa-solid fa-circle-question mx-1"></i>Help & FAQ</li>
+                    <li class="list-none cursor-pointer"><i class="fa-solid fa-blog mx-1"></i>Blog</li>
+                </ol>
+            </div>
+        </div>
+    </header>
+    <section style="background-image: url(./images/background-1.jpg); background-blend-mode: multiply; background-repeat: no-repeat; background-position: center;background-attachment: fixed; background-size: cover;">
+        <div class="container" id="home-banner">
+            <div class="flex items-center justify-center w-full h-full">
+                <div class="leading-tight text-white">
+                    <h1 class="text-[40px] mb-4 ">Explore Our Delicious Menu.</h1>
+                    <p>From appetizers to desserts, our menu offers a variety of mouthwatering options. Treat yourself to a dining experience like no other!</p>
+                    <button class="bg-green-400 my-2 text-white border rounded-md shadow-lg px-4 py-2">See the Full Menu <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <img src="images/bannerimage.png" id="banner-image" width="50%" class="aspect-square object-contain"/>
+            </div>
+        </div>
+        <div class="container" id="home-banner">
+            <div class="flex items-center justify-center w-full h-full">
+                <div class="text-white" >
+                    <h1 class="text-[40px] mb-4 leading-normal">Delight in Every Bite – Veg & Non-Veg Options</h1>
+                    <p>Whether you’re craving vibrant vegetarian dishes or hearty non-veg delights, our menu has something for everyone. Fresh, flavorful, and crafted with love!</p>
+                </div>
+                <img  src="images/secondbanner.png" id="banner-image" width="50%" class="aspect-square object-contain"/>
+            </div>
+        </div>
+    </section>
+    <section class=" w-full bg-gray-100" id="about-us">
+        <div class="container">
+            <div class="flex items-center justify-center w-full relative">
+                <h1 class="text-[40px] absolute top-14">ABOUT US</h1>
+            </div>
+            <div class="flex items-center justify-around">
+                <img src="images/logo.png" width="50%" class="aspect-square object-contain"/>
+                <div class="text-start ">
+                    <ol class="p-0 indent-1.5">
+                        <li class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla quibusdam odio modi dolorem? Adipisci at consequatur aspernatur est. Cupiditate.</li>
+                        <li class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla quibusdam odio modi dolorem?</li>
+                        <li class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla quibusdam odio modi dolorem? Adipisci at consequatur aspernatur est. Cupiditate.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="h-[200px] my-5">
+        <div class="container">
+            <h1 class="text-center">MENUS</h1>
+            <ol class="flex items-center justify-evenly gap-3 h-full min-h-[200px]">
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>Healthy Food</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>Elderly Food</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>General Food</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>Pocket Friendly</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>Salad</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>Fruit</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-md flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <p>PG</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section class="h-auto">
+        <div class="container ">
+            <h1 class="text-center pt-5"> Flexible Planning and Pricing</h1>
+            <div class="flex items-stretch justify-evenly py-10 self-stretch">
+                <div class="border shadow-sm hover:shadow-lg hover:border p-4 hover:border-blue-300 w-1/4 h-auto hover:scale-105 transition-all bg-gray-200 rounded-lg flex items-start justify-center">
+                    <span>
+                        <h1 class="text-center mt-5 uppercase font-bold">Daily</h1>
+                        <p class="text-center">Price :<i class="fa-solid fa-indian-rupee-sign"></i> 1,0000</p>
+                        <small>Perfect for individuals or small teams who need essential features with flexibility.</small>
+                        <ol>
+                            <li class="list-disc list-inside">Access to core features</li>
+                            <li class="list-disc list-inside">Weekly billing cycle</li>
+                            <li class="list-disc list-inside">Dedicated support</li>
+                            <li class="list-disc list-inside">Basic analytics and reporting</li>
+                        </ol>
+                        <small>Ideal for those who need short-term, reliable service at an affordable rate.</small>
+                    </span>
+                </div>
+                <div class="border shadow-sm hover:shadow-lg hover:border p-4 hover:border-blue-300 w-1/4 h-auto hover:scale-105 transition-all bg-gray-200 rounded-lg flex items-start justify-center">
+                    <span>
+                        <h1 class="text-center mt-5 uppercase font-bold">Weekly</h1>
+                        <p class="text-center">Price :<i class="fa-solid fa-indian-rupee-sign"></i> 2000 /week</p>
+                        <small>For regular customers who want to enjoy a week's worth of meals at a great price.</small>
+                        <ol>
+                            <li class="list-disc list-inside">7 meals (1 per day) of your choice</li>
+                            <li class="list-disc list-inside">Delivery every day, or on preferred schedule</li>
+                            <li class="list-disc list-inside">Premium packaging</li>
+                            <li class="list-disc list-inside">Free drink included with each meal</li>
+                            <li class="list-disc list-inside">Special discounts on additional orders</li>
+                            <li class="list-disc list-inside">Customizable meal preferences (e.g., vegetarian, gluten-free)</li>
+                        </ol>
+                        <small><em>Perfect for busy professionals or families who need fresh meals delivered every day for a week.</em></small>
+                    </span>
+                </div>
+                <div class="border shadow-sm hover:shadow-lg hover:border p-4 hover:border-blue-300 w-1/4 h-auto hover:scale-105 transition-all bg-gray-200 rounded-lg flex items-start justify-center">
+                    <span>
+                        <h1 class="text-center mt-5 uppercase font-bold">Monthly</h1>
+                        <p class="text-center">Price :<i class="fa-solid fa-indian-rupee-sign"></i> 7000 /month</p>
+                        <small>The best value for customers who want hassle-free daily meals delivered to their door.                        </small>
+                        <ol>
+                            <li class="list-disc list-inside">10 meals (1 per day) of your choice</li>
+                            <li class="list-disc list-inside">Delivery every day, or on preferred schedule</li>
+                            <li class="list-disc list-inside">Premium packaging</li>
+                            <li class="list-disc list-inside">Free drink included with each meal</li>
+                            <li class="list-disc list-inside">Special discounts on additional orders</li>
+                            <li class="list-disc list-inside">Customizable meal preferences (e.g., vegetarian, gluten-free)</li>
+                        </ol>
+                        <small><em>Ideal for long-term customers looking for premium meals delivered with added benefits and flexibility.</em></small>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="h-auto my-5">
+        <div class="container">
+            <div class="flex items-center justify-center flex-col h-56 shadow-md border border-gray-200" style="background-image: url(./images/logo.png);background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <h1>What Inside the box ?</h1>
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, reiciendis?</p>
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae perferendis laborum sapiente vero quisquam quasi, illum placeat vel iste nisi.</p>
+            </div>
+        </div>
+    </section>
+    <section class="my-5 ">
+        <div class="container">
+            <h1 class="text-center capitalize"> How it works ?</h1>
+            <div class="flex items-stretch justify-evenly gap-2 my-4">
+                <div class="w-1/4 transition-all hover:border hover:border-blue-300 hover:shadow-lg shadow-md rounded-sm p-4 hover:scale-105  border-black">
+                    <img src="./images/logo.png" class="w-60 object-contain aspect-square"/>
+                    <small> Lorem ipsum dolor sit amet.</small>
+                    <small> Lorem ipsum dolor sit amet elit. Lorem ipsum dolor sit amet.</small>
+                </div>
+                <div class="w-1/4 transition-all hover:border hover:border-blue-300 hover:shadow-lg shadow-md rounded-sm p-4 hover:scale-105  border-black">
+                    <img src="./images/logo.png" class="w-60 object-contain aspect-square"/>                        
+                    <small> Lorem ipsum dolor sit amet.</small>
+                    <small> Lorem ipsum dolor sit amet elit. Lorem ipsum dolor sit amet.</small>
+                </div>
+                <div class="w-1/4 transition-all hover:border hover:border-blue-300 hover:shadow-lg shadow-md rounded-sm p-4 hover:scale-105  border-black">
+                    <img src="./images/logo.png" class="w-60 object-contain aspect-square"/>                        
+                    <small> Lorem ipsum dolor sit amet.</small>
+                    <small> Lorem ipsum dolor sit amet elit. Lorem ipsum dolor sit amet.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container bg-gray-100 py-3">
+            <div class="flex items-center justify-center flex-col">
+                <h1 class="">Pre-Order/ Party Order/ Function Order</h1>
+                <span class="flex items-center justify-between">
+                    <img src="./images/logo.png" width="30%" class="aspect-square object-contain"/>
+                    <span>
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam unde animi reprehenderit quidem provident sequi voluptas quo sed ducimus.</p>
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam unde animi reprehenderit quidem provident sequi voluptas quo sed ducimus.</p>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
+            <h1 class="text-center"> Why Choose US ? </h1>
+            <div class="grid grid-cols-2 justify-center align-middle">
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero enim maiores quaerat neque, deleniti maxime. Odit vero sapiente nesciunt?</p>
+                <img src="./images/logo.png" width="50%" class="aspect-square object-contain"/>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container bg-gray-100">
+            <h1 class="text-center"> Reviews </h1>
+            <ol class="grid grid-cols-4 my-4 gap-3 justify-center align-middle w-full h-full min-h-[200px]">
+                <li class="flex items-center justify-between p-2 border rounded shadow-sm flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <div class="flex items-center justify-center gap-2 mb-3">
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quo perspiciatis dignissimos! Officiis, vitae rem dignissimos similique quam obcaecati neque fugiat eos in ab. Repellendus velit unde ipsam ut illo.</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-sm flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <div class="flex items-center justify-center gap-2 mb-3">
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eaque maxime quis cupiditate assumenda harum. Eligendi dicta minima consequuntur cumque.</p>
+                </li>
+                <li class="flex items-center justify-between p-2 border rounded shadow-sm flex-col">
+                    <img src="./images/logo.png" width="60%" class="aspect-square object-contain"/>
+                    <div class="flex items-center justify-center gap-2 mb-3">
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star text-yellow-200"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab blanditiis ad perferendis doloribus? Ea.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+</body>
+</html>
